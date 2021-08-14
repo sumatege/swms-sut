@@ -7,10 +7,10 @@ $password = "";
 $dbname = "swms_database";
 */
 
-$servername = "localhost";
-$username = "id17235519_swms2021";
-$password = "[MSc-EOe<1hV[-\c";
-$dbname = "id17235519_swms_database	";
+$servername = "http://157.245.149.179";
+$username = "io";
+$password = "7777777777yU";
+$dbname = "swms_database	";
 
 
 // Create connection
