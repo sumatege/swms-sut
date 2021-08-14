@@ -13,13 +13,13 @@ function stateChange() {
       $("#loginModal").modal("show");
       document.getElementById("invalidTxt").style.display = "block";
     } else {
-      location.replace("./dashboard.php");
+      alert("Login Success");
+      location.replace("dashboard.php");
     }
   }
 } // end function statechange()
 
 function checkLogin(username, password) {
-  
   if(username != "" && password != ""){
     document.getElementById("pageloader").classList.remove("d-none");
     document.getElementById("pageloader").style.animation = "animationfidein 1s";
@@ -31,7 +31,7 @@ function checkLogin(username, password) {
     xmlHttp.onreadystatechange = stateChange;
     var url = "./php-ajax/login-checking.php";
     url = url + "?username=" + username + "&password=" + password;
-    //alert(url);
+    alert(url);
     xmlHttp.open("GET", url, true);
     xmlHttp.send(null);
   }
