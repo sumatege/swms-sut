@@ -7,7 +7,7 @@ $password = "";
 $dbname = "swms_database";
 */
 
-$servername = "localhost";
+$servername = "157.245.149.179";
 $username = "io";
 $password = "7777777777yU";
 $dbname = "swms_database";
