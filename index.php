@@ -30,10 +30,10 @@ if (isset($_SESSION["m_id"])) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet-index.css">
+    <link rel="stylesheet" type="text/css" href="/css/stylesheet-index.css">
 
-    <script src="js/js-swms/login.js"></script>
-    <script src="js/js-swms/index.js"></script>
+    <script src="/js/js-swms/login.js"></script>
+    <script src="/js/js-swms/index.js"></script>
     <script>
         var validVal = "1";
     </script>
