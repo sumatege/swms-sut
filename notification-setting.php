@@ -183,7 +183,7 @@ if (isset($_SESSION["selectedProjectKey"])) {
                 <div class="col-auto aero-item">
                     <div class="row noti-header p-1 pt-2">
                         <div class="col-auto d-flex align-items-center">
-                            <img src="images/content/aerostatus-on.png" class="noti-img me-1" />
+                            <img src="images/content/aerostatus-off.png" class="noti-img me-1" />
                             <span>ควบคุมเครื่องเติมอากาศ [เครื่องที่ 1]</span>
                         </div>
                     </div>
