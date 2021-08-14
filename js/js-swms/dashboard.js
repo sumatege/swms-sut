@@ -407,7 +407,9 @@ function mrec_checkreq() {
     request.onload = function () {
         if (request.status >= 200 && request.status < 400) {
             var data = JSON.parse(this.response);
-            checkReq(data.p_req_val);
+            if(data.status == 1){
+                checkReq(data.p_req_val);
+            }
         }
     }
     request.send();
