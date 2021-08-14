@@ -10,7 +10,7 @@ if (isset($_SESSION["m_id"])) {
 <html lang="en">
 
 <head>
-    <title>1SWMS | Smart Water Monitoring System</title>
+    <title>SWMS | Smart Water Monitoring System</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
