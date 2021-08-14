@@ -7,10 +7,10 @@ $password = "";
 $dbname = "swms_database";
 */
 
-$servername = "157.245.149.179";
-$username = "io";
-$password = "7777777777yU";
-$dbname = "swms_database";
+$servername = "remotemysql.com";
+$username = "a33Dt0J2lv";
+$password = "vg2Iesyxne";
+$dbname = "a33Dt0J2lv";
 
 
 // Create connection
