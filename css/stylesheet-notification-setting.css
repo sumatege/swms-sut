@@ -1,0 +1,91 @@
+.noti-item {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  background-color: white;
+  /*background-image: url("../images/content/aerostatus-on.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;*/
+}
+
+.aero-item {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  background-color: white;
+}
+
+.noti-header {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 255, 217, 1) 0%,
+    rgba(0, 203, 255, 1) 100%
+  );
+  color: black;
+  border-radius: 10px 10px 0px 0px;
+  min-width: 200px;
+}
+
+.noti-footer {
+  color: black;
+  border-collapse: separate; 
+  border-radius: 0px 0px 10px 10px;
+  min-width: 200px;
+  font-size: x-small;
+}
+
+.lowerTxt {
+  text-decoration: underline;
+}
+
+.number-box {
+  border: 0;
+  font-size: xx-large;
+  padding: 0;
+  max-width: fit-content;
+  color: black !important;
+}
+
+.vl {
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.input-group {
+  color: black;
+}
+
+.toggle.ios,
+.toggle-on.ios,
+.toggle-off.ios {
+  border-radius: 20rem;
+}
+.toggle.ios .toggle-handle {
+  border-radius: 20rem;
+}
+
+.noti-small-txt {
+  color: black;
+  font-size: x-small;
+}
+
+.hr-noti {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.aerotor-label {
+  font-size: x-small;
+}
+
+.noti-img {
+  width: 20px;
+}
+
+.bi-megaphone-fill{
+  color: darkblue;
+}

@@ -1,0 +1,112 @@
+.record {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 255, 217, 1) 0%,
+    rgba(0, 203, 255, 1) 100%
+  );
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 70px;
+}
+
+table {
+  font-family: tavirajregular;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  text-align: center;
+  font-size: smaller;
+}
+
+table thead tr {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  height: 35px;
+  vertical-align: middle;
+}
+
+.btn-hide-column {
+  background-color: #6495ed;
+  border-color: #6495ed;
+  border-width: 3px !important;
+  font-size: xx-small;
+  color: white;
+  min-width: 80px;
+  min-height: fit-content;
+  margin: 3px;
+}
+
+.btn-page {
+  background-color: #6495ed;
+  border: 2px solid #6495ed;
+  min-height: fit-content;
+  font-size: xx-small;
+}
+
+.btn-page:hover {
+  background-color: transparent;
+  border-color: #6495ed;
+}
+
+.btn-clicked {
+  filter: opacity(0.5);
+}
+
+.div-hide-col {
+  height: 90px; /* 40px - more place for scrollbar, is hidden under parent box */
+  padding: 5px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hide;
+  -webkit-overflow-scrolling: touch;
+}
+
+#container-hide-col {
+  height: 60px;
+  overflow: hidden;
+}
+
+.btn-export{
+  background-color: #F0E68C;
+  font-size: smaller;
+}
+
+.datepicker, .dropdown-row{
+  min-width: fit-content;
+  margin-right: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0px;
+  font-size: small;
+  color: black;
+}
+
+.dropdown-menu-rpp{
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  font-size: small;
+  color: black !important;
+  min-width: fit-content;
+  border: 0px;
+}
+
+.dropdown-item-rpp{
+  background-color: transparent;
+  font-size: small;
+  color: black !important;
+  text-align: center;
+}
+
+.dropdown-item-rpp:hover{
+  background-color: white !important;
+}
+
+option{
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-radius: 10px;
+}
+
+small{
+  font-size: small;
+}
+
+.table-filter{
+  color: black;
+}
