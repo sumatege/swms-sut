@@ -19,7 +19,7 @@ function stateChange() {
 } // end function statechange()
 
 function checkLogin(username, password) {
-  alert("Test");
+  
   if(username != "" && password != ""){
     document.getElementById("pageloader").classList.remove("d-none");
     document.getElementById("pageloader").style.animation = "animationfidein 1s";
