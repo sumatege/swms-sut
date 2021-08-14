@@ -9,6 +9,7 @@ function createXMLHttpRequest() {
 
 function stateChange() {
   if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete") {
+    alert(xmlHttp.responseText);
     if (xmlHttp.responseText == "0") {
       $("#loginModal").modal("show");
       document.getElementById("invalidTxt").style.display = "block";
@@ -26,7 +27,6 @@ function checkLogin(username, password) {
     document.body.style.overflow = "hidden";
     document.getElementById("pageloader").style.opacity = "1";
 
-    setTimeout(5000);
     createXMLHttpRequest();
     xmlHttp.onreadystatechange = stateChange;
     var url = "./php-ajax/login-checking.php";
