@@ -15,7 +15,7 @@ function stateChange() {
       document.getElementById("invalidTxt").style.display = "block";
     } else {
       alert("Login Success");
-      location.replace("dashboard.php");
+      location.replace("./dashboard.php");
     }
   }
 } // end function statechange()
