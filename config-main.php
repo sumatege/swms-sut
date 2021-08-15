@@ -9,7 +9,7 @@ $dbname = "swms_database";
 
 $servername = "remotemysql.com";
 $username = "a33Dt0J2lv";
-$password = "vg2Iesyxne";
+$password = "xIl6co8EkL";
 $dbname = "a33Dt0J2lv";
 
 
