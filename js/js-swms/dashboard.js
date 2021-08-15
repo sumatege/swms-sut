@@ -286,7 +286,7 @@ function setSelectedProject(p_id) {
         document.getElementById("water-quality").innerHTML = wqStr;
         document.getElementById("water-quality").style.animation = "blinker 0s linear infinite";
         document.getElementById("waterQTxt").style.display = "none";
-        document.getElementById("aerotor").innerHTML = str;
+        document.getElementById("aerotor").innerHTML = wqStr;
         document.getElementById("aerotorTxt").style.display = "none";
 
         document.getElementById("firstVal").style.color = "black";
